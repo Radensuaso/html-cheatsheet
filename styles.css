@@ -1,10 +1,10 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 h1, h2 {
     text-align: center;
-    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -12,13 +12,37 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
  table {
+    font-family: 'Courier New', Courier, monospace;
     border: 2px solid;
     text-align: left;
-    padding: 10px;
-    width: 800px;
+    width: 750px; 
+    margin-left: auto;
+    margin-right: auto; 
+    vertical-align: middle;
 }
+
+th {
+    font-size: 22px;
+    background-color: darkslateblue;
+    color: floralwhite;
+    padding-left: 10px;
+    height: 30px;
+}
+
+.tag {
+    width: 160px;
+}
+
+td {
+    border-top: 1px solid;
+    height: 35px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
 
